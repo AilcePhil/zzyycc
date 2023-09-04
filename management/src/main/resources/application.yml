@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: management
+  profiles:
+    active: @environment@
+  config:
+    import: nacos:management.yaml
+
+
+  cloud:
+    nacos:
+      config:
+        username: nacos
+        password: 199682
+        context-path: /nacos
+        server-addr: 101.35.52.122:8848
+        file-extension: yaml
+      discovery:
+        server-addr: 101.35.52.122:8848
+        namespace: public
+        username: nacos
+        password: 199682
+
+

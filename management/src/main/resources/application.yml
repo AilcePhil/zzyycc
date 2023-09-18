@@ -24,4 +24,7 @@ spring:
         username: nacos
         password: 199682
 
+swagger:
+  enabled: true
+
 

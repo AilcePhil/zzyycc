@@ -13,11 +13,11 @@ import java.lang.annotation.*;
  * @createTime 2022/2/23 9:27
  * @description 开启mgl swagger
  */
-@Target({ ElementType.TYPE })
-@Retention(RetentionPolicy.RUNTIME)
-@Documented
-@Inherited
-@EnableOpenApi
-@Import({ SwaggerConfig.class})
-public @interface EnableMgSwagger3 {
-}
+//@Target({ ElementType.TYPE })
+//@Retention(RetentionPolicy.RUNTIME)
+//@Documented
+//@Inherited
+//@EnableOpenApi
+//@Import({ SwaggerConfig.class})
+//public @interface EnableMgSwagger3 {
+//}

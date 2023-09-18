@@ -18,7 +18,6 @@
     <modules>
         <module>management</module>
         <module>common</module>
-
     </modules>
 
 
